@@ -1,0 +1,86 @@
+body {
+  padding-top: 15px;
+}
+
+.custom-navbar {
+  background-color: #0d0d17;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.custom-navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.custom-navbar .nav-link {
+  color: #b9b9c9 !important;
+  font-weight: 500;
+  margin: 0 8px;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, #dc5cff, #9b6bff);
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  color: #fff !important;
+}
+
+/* Footer */
+.custom-footer {
+    background-color: #0d0d17;
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.footer-logo {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.footer-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #7b5cff, #4dd0e1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.footer-text {
+    color: #6e6e85;
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    color: #9a9aae;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
